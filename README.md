@@ -1,0 +1,2 @@
+# Minimal-Universal-Gate-Sets-Multi-Qudit-Systems-Cryptographic-Validation
+Python implementation of a rigorously proven minimal universal gate set for multi-qudit systems, enabling decomposition of arbitrary unitary operations in higher-dimensional Hilbert spaces. Demonstrates Grover’s algorithm and QKD using both traditional and decomposed gates, showing functional equivalence &amp; superior efficiency over other methods.
