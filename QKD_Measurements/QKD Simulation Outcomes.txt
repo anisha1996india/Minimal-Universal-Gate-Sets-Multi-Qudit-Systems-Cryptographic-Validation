@@ -1,0 +1,960 @@
+--- Simulating QKD Protocol (BB84 with Universal Gates) ---
+
+--- QKD Round 1/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 2/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 3/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 4/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 5/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 6/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 7/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 8/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 9/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 10/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 11/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───M('rectilinear_measurement')───
+0 (d=3): ───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 12/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───M('rectilinear_measurement')───
+0 (d=3): ───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 13/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 14/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 15/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 16/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 17/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 18/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 19/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 20/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 21/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 22/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 23/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 24/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 25/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 26/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 27/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 28/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───M('rectilinear_measurement')───
+0 (d=3): ───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 29/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───M('rectilinear_measurement')───
+0 (d=3): ───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 30/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 31/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 32/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 33/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 34/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 35/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 36/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 37/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 38/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 39/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 40/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 41/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 42/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 43/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 44/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 45/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 46/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 47/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 48/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 49/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 50/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 51/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 52/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 53/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 54/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 55/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 56/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 57/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 58/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 59/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 60/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 61/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 62/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 63/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 64/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 65/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 66/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 67/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 68/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 69/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 70/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 0 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 71/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 72/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 73/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 74/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 75/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 76/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 77/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 78/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 79/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 80/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 81/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 82/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 0
+
+--- QKD Round 83/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 84/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 85/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 0 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 86/100 ---
+Alice: Preparing bit 0 in basis 'diagonal'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qu3H───Qu3H───Qu3H───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 87/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 88/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap1_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 1 in basis 'rectilinear'.
+Bob: Measured bit 1 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 89/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 90/100 ---
+Alice: Preparing bit 1 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 1
+
+--- QKD Round 91/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'rectilinear'.
+0 (d=3): ───Qutrit_0swap2_Gate───M('rectilinear_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───M('rectilinear_measurement')───
+Bob: Measured bit 2 in basis 'rectilinear'.
+Bob: Measured bit 2 in basis 'rectilinear'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 92/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 1 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 93/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 94/100 ---
+Alice: Preparing bit 0 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 95/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 0 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 96/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 97/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 98/100 ---
+Alice: Preparing bit 2 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 0 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Round 99/100 ---
+Alice: Preparing bit 2 in basis 'diagonal'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap2_Gate───Qu3H───Qu3H───Qu3H───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 2 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used the same basis.
+  Key established for this round: 2
+
+--- QKD Round 100/100 ---
+Alice: Preparing bit 1 in basis 'rectilinear'.
+Bob: Choosing basis 'diagonal'.
+0 (d=3): ───Qutrit_0swap1_Gate───Qu3H───M('diagonal_measurement')───
+0 (d=3): ───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───Qu3M───M('diagonal_measurement')───
+Bob: Measured bit 1 in basis 'diagonal'.
+Bob: Measured bit 2 in basis 'diagonal'.
+Alice and Bob used different bases or measurement result invalid. No key bit established for this round.
+
+--- QKD Simulation Complete ---
+Total rounds simulated: 100
+Number of key bits established: 48
+Shared Secret Key: 220012212012002211110221212221111222220201111222
+Bob's key with actual circuit: [np.int8(0), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(0), np.int8(0), np.int8(2), np.int8(1), np.int8(1), np.int8(0), np.int8(0), np.int8(2), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(0), np.int8(2), np.int8(1), np.int8(2), np.int8(0), np.int8(0), np.int8(1), np.int8(1), np.int8(2), np.int8(2), np.int8(0), np.int8(2), np.int8(0), np.int8(2), np.int8(2), np.int8(1), np.int8(1), np.int8(1), np.int8(2), np.int8(2), np.int8(1), np.int8(1), np.int8(1), np.int8(0), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(1), np.int8(2), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(1), np.int8(1), np.int8(1), np.int8(2), np.int8(0), np.int8(1), np.int8(0), np.int8(1), np.int8(1), np.int8(0), np.int8(0), np.int8(1), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(2), np.int8(0), np.int8(2), np.int8(2), np.int8(0), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(2), np.int8(0), np.int8(0), np.int8(1), np.int8(0), np.int8(2), np.int8(2), np.int8(1), np.int8(2), np.int8(1)], and with universal gates' circuit: [np.int8(1), np.int8(1), np.int8(0), np.int8(0), np.int8(2), np.int8(0), np.int8(0), np.int8(2), np.int8(1), np.int8(1), np.int8(0), np.int8(0), np.int8(0), np.int8(1), np.int8(2), np.int8(2), np.int8(0), np.int8(1), np.int8(2), np.int8(1), np.int8(2), np.int8(0), np.int8(1), np.int8(0), np.int8(0), np.int8(1), np.int8(2), np.int8(0), np.int8(0), np.int8(2), np.int8(0), np.int8(2), np.int8(2), np.int8(0), np.int8(2), np.int8(1), np.int8(1), np.int8(0), np.int8(1), np.int8(2), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(1), np.int8(1), np.int8(0), np.int8(2), np.int8(1), np.int8(2), np.int8(0), np.int8(2), np.int8(2), np.int8(1), np.int8(2), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(0), np.int8(2), np.int8(0), np.int8(2), np.int8(1), np.int8(2), np.int8(0), np.int8(1), np.int8(1), np.int8(2), np.int8(2), np.int8(2), np.int8(0), np.int8(2), np.int8(2), np.int8(0), np.int8(2), np.int8(2), np.int8(0), np.int8(1), np.int8(1), np.int8(0), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(1), np.int8(2), np.int8(1), np.int8(2), np.int8(0), np.int8(0), np.int8(2), np.int8(0), np.int8(0), np.int8(2), np.int8(2)]
+
+--- Basis Statistics ---
+Alice's basis choices: {'rectilinear': 54, 'diagonal': 46}
+Bob's basis choices: {'diagonal': 44, 'rectilinear': 56}
+Histogram successfully stored to 'QKD_Measurements/QKD Basis Choice Distribution.png'.
